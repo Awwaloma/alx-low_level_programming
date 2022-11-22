@@ -6,6 +6,7 @@
  * @size: bytes for each position in array
  * Return: pointer void
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *p;
@@ -18,7 +19,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (p == NULL)
 	return (NULL);
 
-	for (i = 0; i < nmemb * size, i++;)
+	for (i = 0; i < nmemb * size; i++)
 	p[i] = 0;
 
 	return (p);
